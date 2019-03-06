@@ -1,0 +1,460 @@
+/*navigation bar styles begin from here*/
+nav {
+   position:relative;
+   padding: 0px 0px;
+   min-width: 50%;
+   background-image:url("/src/img/black_bg.jpg");
+    }
+
+nav ul {
+    list-style-type: none;
+    margin:10px,10px;
+    padding:0px;
+    width: 100%;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    background-color: #f1f1f1;
+    }
+nav ul li {
+     display: inline-block;
+ }
+
+nav ul li a {
+    float:right;
+    color: #000;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: blue;
+}
+/*navigation bar styles end here*/
+
+
+/*end of navigation section*/
+h3 {
+  font-weight: 500; }
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  }
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  }
+  /* heading styles ends here */
+body, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+  }
+body {
+    margin:25px;
+    background-image: url("/src/img/Pattern_Dark.png");
+    background-color: #EBEEF3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /*body styles end here*/
+/*general edits here*/
+.dark_bg {
+  background-color:#000;
+  width:100px;
+}
+ul{
+list-style-type:none;
+}
+img {
+  border-radius: 5%;
+}
+
+.main_title {
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.main_title h2 {
+  font-size: 25px;
+  font-family: "Bree Serif", serif;
+  color: #222222;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #222222;
+  display: inline-block;
+  line-height: 58px;
+  padding: 0px 23px;
+}
+
+/* progress bar css styles start*/
+.progress-bar {
+    margin-bottom: 1rem;
+    background-color: lightgray;
+    border-radius: 1.25em;
+    width: 300px;
+    height: 16px;
+    display: inline-block;
+}
+.progress-value {
+    background-color: #673ab7;
+    transition: 0.3s all linear;
+    border-radius: 1.25em;
+    height: 16px;
+    display: inline-block;
+    animation: progress 3s ease-in-out forwards;
+    -webkit-animation: progress 3s ease-in-out forwards;
+}
+.progress-value.green {
+    background-color: #4CAF50;
+    animation: progress-3 3s ease-in-out forwards;
+    -webkit-animation: progress-3 3s ease-in-out forwards;
+}
+.progress-value.yellow {
+   background-color: #ff9800;
+  animation: progress-2 3s ease-in-out forwards;
+    -webkit-animation: progress-2 3s ease-in-out forwards;
+}
+/* animation */
+ @keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 65%;
+  }
+}
+ @-webkit-keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 65%;
+  }
+}
+ @keyframes progress-2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+ @-webkit-keyframes progress-2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+ @keyframes progress-3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 95%;
+  }
+}
+ @-webkit-keyframes progress-3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 95%;
+  }
+}
+
+
+/* progress bar css styles end*/
+/* id css style components start*/
+#skill{
+    transition-timing-function: ease;
+}
+/* id css style components start*/
+
+/*General edits here*/
+    /* column and row styles begin*/
+/* Create three equal columns that floats next to each other */
+.column {
+  margin:5px;
+  float: left;
+  width: 20%;
+  padding: 15px;
+}
+.skill_column{
+  float: left;
+  margin:15px;
+  width: 45%;
+  padding: 15px;
+}
+.contact_column{
+  float: left;
+  width: 45%;
+  padding: 15px;
+}
+.pic_column{
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+.about_column{
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+.about_information_column{
+  float: left;
+  width: 10%;
+  padding: 15px;
+}
+.education_column{
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+.services_column{
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about_content {
+  background-color: white;
+  padding:16px,16px;
+  margin:10px,10px,10px,10px;
+  width: 100%;
+}
+    /*column and body styles end here*/
+/*image css styling code start*/
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+/*image hover effect start*/
+.viewport {
+  float: left;
+  height: 260px;
+  margin-right: 20px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+	width: 460px;
+	box-shadow: 0 30px 25px -25px black;
+	border: 2px solid #fff;
+	border-radius: 3px;
+}
+
+.viewport figure img {
+	height: 300px;
+	left: -20px;
+	position: absolute;
+	top: -20px;
+	width: 500px;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+
+.viewport:hover figure img {
+	height: 260px;
+	left: 0;
+	top: 0;
+	width: 460px;
+}
+
+.dark_overlay {
+	background-color: rgba(0,0,0,0.3);
+	height: 260px;
+	opacity: 0;
+	position: absolute;
+	width: 460px;
+	z-index: 99;
+  -webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+/*image hover effect end*/
+
+/*image css styling code end*/
+/*
+form design start
+*/
+
+.form-style{
+	max-width: 450px;
+	background: #FAFAFA;
+	padding: 30px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #305A72;
+}
+.form-style ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.form-style ul li{
+	display: block;
+	margin-bottom: 10px;
+	min-height: 35px;
+}
+.form-style ul li  .field-style{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+
+}.form-style ul li  .field-style:focus{
+	box-shadow: 0 0 5px #B0CFE0;
+	border:1px solid #B0CFE0;
+}
+.form-style ul li .field-split{
+	width: 49%;
+}
+.form-style ul li .field-full{
+	width: 100%;
+}
+.form-style ul li input.align-left{
+	float:left;
+}
+.form-style ul li input.align-right{
+	float:right;
+}
+.form-style ul li textarea{
+	width: 100%;
+	height: 100px;
+}
+.form-style ul li input[type="button"],
+.form-style ul li input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: #216288;
+	border: 1px solid #17445E;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style ul li input[type="button"]:hover,
+.form-style ul li input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
+}
+
+/*
+form design end
+*/
+
+/*education images start */
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+/*education images end */
+
+.logo{
+   float: left;
+   position: relative;
+   margin: 10px 15px 15px 10px;
+   width:100%;
+}
+.skill_content{
+    transition-timing-function: ease;
+    text-align: center;
+    background-color:#CCCC00;
+    padding: 70px 0;
+    margin:10px,10px,10px,10px;
+    width: 100%;
+}
+.services_content{
+    transition-timing-function: ease;
+    text-align: center;
+    background-color:#CCCC00;
+    padding: 70px 0;
+    margin:10px,10px,10px,10px;
+    width: 100%;
+}
+.education_content{
+    transition-timing-function: ease;
+    text-align: center;
+    background-color:#A9A9A9;
+    padding: 70px 0;
+    margin:10px,10px,10px,10px;
+    width: 100%;
+}
+.contact_content{
+    transition-timing-function: ease;
+    text-align: center;
+    background-color:#A9A9A9;
+    padding: 70px 0;
+    margin:10px,10px,10px,10px;
+    width: 100%;
+}
+.footer_nav{
+       position:relative;
+       padding: 0px 0px;
+       min-width: 50%;
+
+}
+.footer_nav ul {
+       list-style-type: none;
+       margin:10px,10px;
+       padding:0px;
+       width: 100%;
+       box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+       background-color: #f1f1f1;
+}
+.footer_nav ul li {
+     display: inline-block;
+ }
+.footer_nav ul li a {
+    float:right;
+    color: #000;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.footer_nav ul li a:hover {
+  background-color: #555;
+  color: white;
+}
